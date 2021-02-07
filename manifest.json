@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Chrome Injected CSS Order Test Case",
+	"author": "eritbh",
+	"version": "1.0.0",
+	"permissions": [
+		"https://old.reddit.com/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://old.reddit.com/*"
+			],
+			"css": [
+				"style.css"
+			]
+		}
+	]
+}
